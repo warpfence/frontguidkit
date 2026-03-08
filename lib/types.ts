@@ -4,6 +4,7 @@ export interface InnerElement {
 }
 
 export interface WireframeData {
+  wireframeType?: "page-layout" | "overlay" | "inline" | "standalone";
   highlightArea: string;
   innerElements: InnerElement[];
 }
