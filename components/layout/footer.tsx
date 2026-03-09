@@ -2,7 +2,7 @@ import { Github } from "lucide-react";
 
 export function Footer() {
   return (
-    <footer className="shrink-0 border-t border-border bg-muted/30 px-6 py-6">
+    <footer className="shrink-0 border-t border-border bg-muted/30 px-6 pt-3 pb-4">
       <div className="grid grid-cols-3 items-start">
         {/* 링크 */}
         <div>

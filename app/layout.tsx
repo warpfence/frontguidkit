@@ -36,14 +36,16 @@ export default function RootLayout({
       >
         <ThemeProvider>
           <TooltipProvider>
-            <div className="flex h-screen flex-col overflow-hidden">
+            <div className="flex h-dvh flex-col">
               <TopBar />
-              <SidebarProvider defaultOpen className="flex-1 overflow-hidden">
+              <SidebarProvider defaultOpen className="!min-h-0 flex-1">
                 <AppSidebar />
-                <SidebarInset className="flex min-h-0 flex-1 flex-col">
+                <SidebarInset className="flex flex-col overflow-hidden">
                   <div className="flex-1 overflow-y-auto">
-                    {children}
-                    <Footer />
+                    <div className="flex min-h-full flex-col">
+                      <div className="flex-1">{children}</div>
+                      <Footer />
+                    </div>
                   </div>
                 </SidebarInset>
               </SidebarProvider>
