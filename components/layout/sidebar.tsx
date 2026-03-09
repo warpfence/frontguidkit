@@ -10,6 +10,7 @@ import {
   SlidersHorizontal,
   BarChart3,
   ChevronRight,
+  Home,
 } from "lucide-react";
 import { categories } from "@/data/categories";
 import {
@@ -30,6 +31,7 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
+import { Separator } from "@/components/ui/separator";
 import type { LucideIcon } from "lucide-react";
 
 const iconMap: Record<string, LucideIcon> = {
@@ -44,10 +46,26 @@ const iconMap: Record<string, LucideIcon> = {
 export function AppSidebar() {
   const pathname = usePathname();
   const currentSlug = pathname.split("/").pop() ?? "";
+  const isHome = pathname === "/";
 
   return (
     <Sidebar collapsible="none" className="border-r">
       <SidebarContent>
+        <SidebarGroup>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              <SidebarMenuItem>
+                <SidebarMenuButton asChild isActive={isHome} tooltip="홈">
+                  <Link href="/">
+                    <Home className="h-4 w-4" />
+                    <span>홈</span>
+                  </Link>
+                </SidebarMenuButton>
+              </SidebarMenuItem>
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+        <Separator />
         <SidebarGroup>
           <SidebarGroupLabel>컴포넌트</SidebarGroupLabel>
           <SidebarGroupContent>

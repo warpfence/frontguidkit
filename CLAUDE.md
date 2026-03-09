@@ -46,3 +46,10 @@ npm run lint      # ESLint
 
 <!-- MANUAL ADDITIONS START -->
 <!-- MANUAL ADDITIONS END -->
+
+## Active Technologies
+- TypeScript 5 / Node.js 18+ + Next.js 16.1.6, React 19, Tailwind CSS v4, shadcn/ui (radix-nova), Lucide React, next-themes (신규 추가) (003-main-page)
+- N/A (정적 TypeScript 객체) (003-main-page)
+
+## Recent Changes
+- 003-main-page: Added TypeScript 5 / Node.js 18+ + Next.js 16.1.6, React 19, Tailwind CSS v4, shadcn/ui (radix-nova), Lucide React, next-themes (신규 추가)

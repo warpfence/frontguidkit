@@ -19,6 +19,7 @@ export interface Component {
   name: string;
   description: string;
   categoryId: string;
+  image?: string;
   wireframe: WireframeData | null;
   terms: Term[];
   prompt: string;

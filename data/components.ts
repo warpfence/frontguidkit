@@ -196,6 +196,7 @@ export const components: Component[] = [
     name: "Modal / Dialog",
     description: "화면 위에 오버레이로 표시되는 대화 상자로, 사용자의 확인이나 입력을 요청한다.",
     categoryId: "feedback",
+    image: "/images/components/modal-dialog.png",
     isReady: true,
     wireframe: {
       wireframeType: "overlay",
@@ -237,6 +238,7 @@ export const components: Component[] = [
     name: "Toast / Snackbar",
     description: "짧은 알림 메시지를 일시적으로 표시하고 자동으로 사라지는 컴포넌트.",
     categoryId: "feedback",
+    image: "/images/components/toast-snackbar.png",
     isReady: true,
     wireframe: {
       wireframeType: "overlay",
@@ -278,6 +280,7 @@ export const components: Component[] = [
     name: "Alert / Banner",
     description: "중요한 정보나 경고를 페이지 내에 고정 표시하는 컴포넌트.",
     categoryId: "feedback",
+    image: "/images/components/alert-banner.png",
     isReady: true,
     wireframe: {
       wireframeType: "inline",
@@ -317,6 +320,7 @@ export const components: Component[] = [
     name: "Badge",
     description: "상태나 개수를 표시하는 작은 라벨로, 아이콘이나 텍스트 위에 부착된다.",
     categoryId: "feedback",
+    image: "/images/components/badge.png",
     isReady: true,
     wireframe: {
       wireframeType: "inline",
@@ -355,6 +359,7 @@ export const components: Component[] = [
   {
     slug: "progress-skeleton",
     name: "Progress Bar / Skeleton",
+    image: "/images/components/progress-skeleton.png",
     description: "로딩 상태나 진행률을 시각적으로 표현하는 컴포넌트.",
     categoryId: "feedback",
     isReady: true,
@@ -398,6 +403,7 @@ export const components: Component[] = [
     name: "Breadcrumb",
     description: "현재 페이지의 위치를 경로 형태로 보여주는 내비게이션 보조 요소.",
     categoryId: "navigation",
+    image: "/images/components/breadcrumb.png",
     isReady: true,
     wireframe: {
       wireframeType: "inline",
@@ -438,6 +444,7 @@ export const components: Component[] = [
     name: "Tabs",
     description: "동일 영역 내에서 여러 뷰를 탭으로 전환할 수 있게 하는 컴포넌트.",
     categoryId: "navigation",
+    image: "/images/components/tabs.png",
     isReady: true,
     wireframe: {
       wireframeType: "inline",
@@ -478,6 +485,7 @@ export const components: Component[] = [
     name: "Pagination",
     description: "목록을 여러 페이지로 나누어 이동할 수 있게 하는 컴포넌트.",
     categoryId: "navigation",
+    image: "/images/components/pagination.png",
     isReady: true,
     wireframe: {
       wireframeType: "inline",
@@ -519,6 +527,7 @@ export const components: Component[] = [
     name: "Stepper",
     description: "여러 단계의 프로세스를 순서대로 표시하고 진행 상태를 보여주는 컴포넌트.",
     categoryId: "navigation",
+    image: "/images/components/stepper.png",
     isReady: true,
     wireframe: {
       wireframeType: "inline",
@@ -560,6 +569,7 @@ export const components: Component[] = [
     name: "Dropdown Menu",
     description: "클릭 시 아래로 펼쳐지는 선택지 목록을 제공하는 메뉴.",
     categoryId: "navigation",
+    image: "/images/components/dropdown-menu.png",
     isReady: true,
     wireframe: {
       wireframeType: "overlay",
@@ -604,6 +614,7 @@ export const components: Component[] = [
     name: "Card",
     description: "관련 정보를 하나의 박스에 묶어 표시하는 범용 컨테이너 컴포넌트.",
     categoryId: "content",
+    image: "/images/components/card.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -645,6 +656,7 @@ export const components: Component[] = [
     name: "Carousel / Slider",
     description: "여러 콘텐츠를 좌우로 슬라이드하며 탐색할 수 있는 컴포넌트.",
     categoryId: "content",
+    image: "/images/components/carousel-slider.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -688,6 +700,7 @@ export const components: Component[] = [
     name: "Accordion",
     description: "제목을 클릭하면 본문이 펼쳐지는 접이식 콘텐츠 컴포넌트.",
     categoryId: "content",
+    image: "/images/components/accordion.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -728,6 +741,7 @@ export const components: Component[] = [
     name: "Tooltip",
     description: "요소에 마우스를 올리면 나타나는 짧은 설명 텍스트.",
     categoryId: "content",
+    image: "/images/components/tooltip.png",
     isReady: true,
     wireframe: {
       wireframeType: "overlay",
@@ -769,6 +783,7 @@ export const components: Component[] = [
     name: "Popover",
     description: "클릭 시 요소 근처에 표시되는 작은 정보 패널.",
     categoryId: "content",
+    image: "/images/components/popover.png",
     isReady: true,
     wireframe: {
       wireframeType: "overlay",
@@ -811,6 +826,7 @@ export const components: Component[] = [
     name: "Avatar",
     description: "사용자 프로필 이미지를 원형 또는 사각형으로 표시하는 컴포넌트.",
     categoryId: "content",
+    image: "/images/components/avatar.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -851,6 +867,7 @@ export const components: Component[] = [
     name: "Timeline",
     description: "이벤트나 단계를 시간 순서대로 시각적으로 나열하는 컴포넌트.",
     categoryId: "content",
+    image: "/images/components/timeline.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -893,6 +910,7 @@ export const components: Component[] = [
     name: "Form / Input",
     description: "사용자 데이터를 입력받는 텍스트 필드, 체크박스, 라디오 등의 폼 요소.",
     categoryId: "input",
+    image: "/images/components/form-input.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -936,6 +954,7 @@ export const components: Component[] = [
     name: "Search Bar",
     description: "키워드를 입력하여 콘텐츠를 검색할 수 있는 입력 컴포넌트.",
     categoryId: "input",
+    image: "/images/components/search-bar.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -977,6 +996,7 @@ export const components: Component[] = [
     name: "Toggle / Switch",
     description: "켜기/끄기 두 가지 상태를 전환하는 스위치 컴포넌트.",
     categoryId: "input",
+    image: "/images/components/toggle-switch.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -1018,6 +1038,7 @@ export const components: Component[] = [
     name: "Date Picker",
     description: "캘린더 UI를 통해 날짜를 선택할 수 있는 입력 컴포넌트.",
     categoryId: "input",
+    image: "/images/components/date-picker.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -1061,6 +1082,7 @@ export const components: Component[] = [
     name: "File Upload",
     description: "파일을 선택하거나 드래그 앤 드롭으로 업로드하는 컴포넌트.",
     categoryId: "input",
+    image: "/images/components/file-upload.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -1102,6 +1124,7 @@ export const components: Component[] = [
   {
     slug: "tag-chip",
     name: "Tag / Chip",
+    image: "/images/components/tag-chip.png",
     description: "키워드나 카테고리를 작은 라벨로 표시하고 제거할 수 있는 컴포넌트.",
     categoryId: "input",
     isReady: true,
@@ -1145,6 +1168,7 @@ export const components: Component[] = [
   {
     slug: "rating",
     name: "Rating",
+    image: "/images/components/rating.png",
     description: "별점 등으로 평가를 입력하거나 표시하는 컴포넌트.",
     categoryId: "input",
     isReady: true,
@@ -1191,6 +1215,7 @@ export const components: Component[] = [
     name: "Table / Data Grid",
     description: "행과 열로 구성된 표 형태로 데이터를 정렬·필터·표시하는 컴포넌트.",
     categoryId: "data-viz",
+    image: "/images/components/table-data-grid.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -1235,6 +1260,7 @@ export const components: Component[] = [
     name: "Stat Card",
     description: "주요 지표(KPI)를 숫자와 레이블로 강조하여 보여주는 카드.",
     categoryId: "data-viz",
+    image: "/images/components/stat-card.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -1275,6 +1301,7 @@ export const components: Component[] = [
     name: "Chart",
     description: "데이터를 막대·선·파이 등의 시각적 그래프로 표현하는 컴포넌트.",
     categoryId: "data-viz",
+    image: "/images/components/chart.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
@@ -1318,6 +1345,7 @@ export const components: Component[] = [
     name: "Heatmap",
     description: "데이터의 밀도나 강도를 색상 농도로 시각화하는 컴포넌트.",
     categoryId: "data-viz",
+    image: "/images/components/heatmap.png",
     isReady: true,
     wireframe: {
       wireframeType: "standalone",
