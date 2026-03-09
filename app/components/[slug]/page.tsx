@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import { getComponentBySlug, getAllSlugs } from "@/data/components";
 import { ContentPlaceholder } from "@/components/guide/content-placeholder";
 import { WireframePreview } from "@/components/guide/wireframe-preview";
@@ -22,7 +23,7 @@ export default async function ComponentPage({
   }
 
   return (
-    <main className="flex-1 overflow-y-auto p-8">
+    <main className="p-8">
       <div className="mx-auto max-w-4xl space-y-8">
         <div>
           <h1 className="text-3xl font-bold">{component.name}</h1>
@@ -33,9 +34,22 @@ export default async function ComponentPage({
 
         {component.isReady ? (
           <div className="space-y-8">
-            {component.wireframe && (
+            {component.image ? (
+              <div className="space-y-3">
+                <h2 className="text-lg font-semibold">와이어프레임 미리보기</h2>
+                <div className="overflow-hidden rounded-lg border border-border bg-muted/30">
+                  <Image
+                    src={component.image}
+                    alt={`${component.name} 와이어프레임`}
+                    width={800}
+                    height={268}
+                    className="w-full object-cover"
+                  />
+                </div>
+              </div>
+            ) : component.wireframe ? (
               <WireframePreview wireframe={component.wireframe} />
-            )}
+            ) : null}
             {component.terms.length > 0 && (
               <TermCards terms={component.terms} />
             )}
